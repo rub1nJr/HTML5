@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Page</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
+<h1>Desafio 01</h1>
 <h1>Minhas redes sociais</h1>
     <h2>Quem sou eu?</h2>
 <img src="imagens/perfil.jpg" alt="imagem perfil">
@@ -22,8 +21,5 @@
         <li><img src="imagens/icone-twitter.png" alt="Twitter"> <a href="https://twitter.com/rub1nfps" target="_blank" rel="external" >/rub1nfps</a> - Me siga no <ins>Twitter</ins></li>
         <li><img src="imagens/icone-linkedin.png" alt="Linkedin"> <a href="https://www.linkedin.com/in/rubens-da-cunha-junior-850556197/" target="_blank" rel="external">/rubens</a> - Me adicione no <ins>Linkedin</ins></li>
     </ul>
-<hr>
-    <p>Ir para o <a href="desafio01.html" rel="next">Proximo Desafio</a></p>
-    <p>Para baixar as imagens usadas na pagina, <a href="arquivos/download/imagens.rar">Clique aqui!</a></p>
 </body>
 </html>

@@ -6,11 +6,12 @@ body {
     font-size: 15px;
 }
 h1 {
-    color:darkblue;
-    background-color: aqua;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 38, 255);
 }
 h2 {
-    color:darkred;
+    color:rgb(255, 255, 255);
+    background-color: darkred;
 }
 p {
     text-align: justify;

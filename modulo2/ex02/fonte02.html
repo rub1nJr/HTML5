@@ -6,15 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes com Google Fonts</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+        @font-face {
+            font-family:'oldlondon';
+            src: url('fontes/OldLondon.ttf') format('truetype'), url('fontes/Olondona.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*Tipos de formatos
+            -opentype(otf)
+            -truetype(ttf)
+            */
+        }
+
         h1{
-           font-family: 'Permanent Marker';
+           font-family: 'oldlondon';
            text-align: center;
-           font-size: 3em;
+           font-size: 4em;
            color:black;
         }
         h2{
-           font-family:'Permanent Marker';
+           font-family:'permanent marker';
            font-size: 2em;
            color:black;
         }

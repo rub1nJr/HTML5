@@ -21,6 +21,17 @@ a{
     font-weight: bold;
     text-shadow: 0px 0px 3px #ff0000ee;
 }
+a.fins{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0px 0px 0;
+}
+a.fins:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
 a:hover{
     color: #ffffff;
     text-decoration: underline;
@@ -30,7 +41,7 @@ a:active{
 }
 div#mn{
     margin-left: 5px;
-    margin-right: 2px;
+    margin-right: 0px;
     font-family:'permanentm';
     font-weight: 500;
     font-size: 16px;
@@ -112,4 +123,7 @@ p.video1{
     width: 560px;
     height: 315px;
     box-shadow: 0px 0px 10px #ff0000;
+}
+p.fim{
+    text-align: center;
 }

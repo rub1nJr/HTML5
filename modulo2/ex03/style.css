@@ -20,6 +20,7 @@ a{
     text-decoration: none;
     font-weight: bold;
     text-shadow: 0px 0px 3px #ff0000ee;
+    display: block;
 }
 a.fins{
     font-family: Arial, Helvetica, sans-serif;

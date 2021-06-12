@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'droid';
+    src: url(../fontes/idroid.ttf) format('truetype');
+}
 body{
     background-color: #d8fab1;
     margin: 0px;
@@ -29,14 +33,27 @@ main{
     width: 850px;;
     margin: auto;
     box-shadow: 0px 0px 15px #0000004d;
-    padding: 20px;
+    padding: 1px 20px;
+    border-radius: 5px;
+}
+main > h2{
+    font-family: 'droid';
+    color: #2f682f;
+}
+main > h3{
+    font-family: 'droid';
+    color: #2f682f;
+    background-image: linear-gradient(to right, lightgreen, #a1f1a1d0,#cffacfd0,#f8fff8d0,#ffffff);
+}
+main > p{
+    text-indent: 20px;
 }
 
 
 footer{
     text-align: center;
     background-color: #006400;
-    color: white;
+    color: #ffffff;
     margin: 0px;
     padding: 8px;
 

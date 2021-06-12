@@ -12,8 +12,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
+    position:relative;
+    bottom:0;
+    width:100%;
     margin:0px;
-    padding: 15px 1px 1px 1px;
+    padding: 15px 0px 0px 0px;
     background-image: linear-gradient(to bottom, #c0f5c0, #008000, #015201, #027202);
     color: #ffffffe5;
 }
@@ -55,6 +58,7 @@ main{
     width: 850px;;
     margin: auto;
     box-shadow: 0px 0px 15px #0000004d;
+    height: auto;
 }
 main.corpo{
     padding: 1px 20px;
@@ -117,7 +121,8 @@ div.bxvd > p {
     padding-left: 10px;
 }
 footer{
-    text-align: center;
+    text-align: ;
+    text-align:end;
     background-color: #006400;
     color: #ffffff;
     margin-top: 10px;
@@ -125,7 +130,9 @@ footer{
     margin-bottom: 0px;
     margin-left: 0px;
     padding: 8px;
-    
+    position:relative;
+    bottom:0;
+    width:100%;
 }
 footer > p{
     margin: 0px;

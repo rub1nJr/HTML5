@@ -12,15 +12,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    margin: 0px;
+    margin:0px;
     padding: 2px;
     background-image: linear-gradient(to bottom, #c0f5c0, #008000, #015201, #027202);
     color: #ffffffe5;
     text-align: center;
 }
 header > nav {
+
     text-align: left;
-    padding: 4px;
+    padding: 10px;
 }
 header > nav > a{
     color: #9af79a;
@@ -38,7 +39,11 @@ main{
 }
 main.corpo{
     padding: 1px 20px;
-    border-radius: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+main.corpo2{
+    padding: 1px 20px;
+    border-radius: 0px 0px 5px 5px;
 }
 a.text{
     color: #2f682f;
@@ -66,20 +71,42 @@ strong.s2{
     background-color: #90ee90f3;
 }
 div{
-    /*VAZIO*/
+
 }
 div#video{
     background-color: #006400;
-    margin: 0px;
     text-align: center;
     padding: 10px 0px;
+    width: 850px;;
+    margin: auto;
+    padding: 20px;
+}
+div.bxvd{
+
+    background-color: #9fec9fa8;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+div.bxvd > h3{
+    background-color: #3f853f;
+    color: #ffffff;
+    border-radius: 15px 20px 0px 0px;
+    padding: 15px;
+}
+div.bxvd > p {
+    text-indent: 25px;
+    padding-left: 10px;
 }
 footer{
     text-align: center;
     background-color: #006400;
     color: #ffffff;
-    margin: 0px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     padding: 8px;
+    
 }
 footer > p{
     margin: 0px;
@@ -92,4 +119,18 @@ a.linkbx{
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+}
+div#lista1{
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 10px;
+
+}
+div#lista2{
+    padding-left: 250px;
+    display: inline-block;
+}
+
+div.img{
+    text-align: center;
 }

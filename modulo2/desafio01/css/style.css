@@ -10,17 +10,13 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-
 }
 header {
-
     width:100%;
     margin: auto;
     padding-top: 20px;
     background-image: linear-gradient(to bottom, #c0f5c0, #008000, #015201, #027202);
     color: #ffffffe5;
-    weight: 100%$;
     background-position: center;
 }
 header > h1{
@@ -30,7 +26,6 @@ header > p{
     text-align: center;
 }
 header > nav {
-    text-align: left;
     padding: 5px;
 }
 header > nav > a{
@@ -42,7 +37,6 @@ header > nav > a{
 nav{
     display: inline-block;
     padding: 10px 5px;
-    
 }
 nav > a{
     text-align: center;
@@ -50,15 +44,15 @@ nav > a{
 }
 nav:hover{
     border-radius: 5px;
-    background-color: lightgreen;
+    background-color: #90ee90;
 }
 nav > a:hover{
     text-align: center;
-    color: rgb(2, 122, 2);
+    color: #027a02;
 }
 main{
     background-color: #ffffff;
-    width: 850px;;
+    width: 850px;
     margin: auto;
     box-shadow: 0px 0px 15px #0000004d;
     height: auto;
@@ -96,9 +90,7 @@ strong.s2{
     color: #2f682f;
     background-color: #90ee90f3;
 }
-div{
 
-}
 div#video{
     background-color: #006400;
     text-align: center;
@@ -124,23 +116,22 @@ div.bxvd > p {
     padding-left: 10px;
 }
 
+
 footer{
+    width: 100%;
     background-color: #006400;
     color: #ffffff;
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 100% ;
-    background-position: center;
-    text-align: center;
-    
+    position: absolute;
+    z-index: 1;
 }
 footer > p{
     margin: 0px;
     font-size: 14px;
     text-align: justify;
     text-align: center;
-    font-style: oblique;
 }
 a.linkbx{
     color: #ffffff;

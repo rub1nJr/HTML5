@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/*add info*/
+@font-face {
+    font-family: 'droid';
+    src: url(../fontes/idroid.ttf) format('truetype');
+}
+/*add info*/
+/*github (rubensjnr_)*/
+body{
+    background-color: #d8fab1;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width:100%;
+    margin: auto;
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, #c0f5c0, #008000, #015201, #027202);
+    color: #ffffffe5;
+    background-position: center;
+}
+header > h1{
+    text-align: center;
+}
+header > p{
+    text-align: center;
+}
+header > nav {
+    padding: 5px;
+    display: inline-block;
+    transition: 250ms ;
+}
+header > nav > a{
+    color: #cbffcb;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: inline-block;
+    padding: 10px 5px;
+}
+nav > a{
+    text-align: center;
+    margin: 0px 10px;
+}
+nav:hover{
+    border-radius: 5px;
+    background-color: #90ee90;
+}
+nav > a:hover{
+    text-align: center;
+    color: #027a02;
+}
+main{
+    background-color: #ffffff;
+    width: 850px;
+    margin: auto;
+    box-shadow: 0px 0px 15px #0000004d;
+    height: auto;
+}
+main.corpo{
+    padding: 1px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+main.corpo2{
+    padding: 1px 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+a.text{
+    color: #2f682f;
+    text-decoration: none;
+    font-weight: bold;
+}
+main > h2{
+    font-family: 'droid';
+    color: #2f682f;
+}
+main > h3{
+    font-family: 'droid';
+    color: #2f682f;
+    background-image: linear-gradient(to right, #90ee90, #a1f1a1d0,#cffacfd0,#f8fff8d0,#ffffff);
+}
+main > p{
+    text-indent: 25px;
+    text-align: justify;
+}
+strong.s1{
+    color: #41a141;
+}
+strong.s2{
+    color: #2f682f;
+    background-color: #90ee90f3;
+}
+
+div#video{
+    background-color: #006400;
+    text-align: center;
+    padding: 10px 0px;
+    width: 850px;;
+    margin: auto;
+    padding: 20px;
+}
+div.bxvd{
+
+    background-color: #9fec9fa8;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+div.bxvd > h3{
+    background-color: #3f853f;
+    color: #ffffff;
+    border-radius: 15px 20px 0px 0px;
+    padding: 15px;
+}
+div.bxvd > p {
+    text-indent: 25px;
+    padding-left: 10px;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #006400;
+    color: #ffffff;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 1;
+}
+footer > p{
+    margin: 0px;
+    font-size: 14px;
+    text-align: justify;
+    text-align: center;
+}
+a.linkbx{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+div#lista1{
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+div#lista2{
+    padding-left: 250px;
+    display: inline-block;
+}
+div.img{
+    text-align: center;
+}
